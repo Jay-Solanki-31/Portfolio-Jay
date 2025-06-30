@@ -30,7 +30,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/Jay-Solanki-31",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  linkedin: "https://www.linkedin.com/in/jaykishan-solanki/",
   gmail: "jaysolanki1733@Gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
   medium: "https://medium.com/@jaydevelopment7",
@@ -153,52 +153,76 @@ const workExperiences = {
     {
       role: "Php Laravel Intern",
       company: "Webrockerz Technologies PVT LTD",
-      companylogo: require("./assets/images/webrockz logo.png"),
+      companylogo: require("./assets/images/Webrockerz.png"),
       date: "Aug 2024 – Des 2024",
       desc: "Woriking As Php Laravel Intern At Webrockerz Technologies. Learn Php Laravel and working On Projects And Complete Internship",
-    },
+      descBullets: [
+        "Learn Php Laravel And Make a Hostel Booking site and complate my Internship",
+        "Gain Experience In Backend Development And Working On Projects",
+        "Learn Php Laravel Gain Knowledge How Backend Works"
+      ]
+    }
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
-};
+  showGithubProfile: "true",
+  display: false
+}
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "PACK POINT ",
+  subtitle: "E-commerce Platform To Purchase Bags ",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/logo1.png"),
+      projectName: "PACK POINT ",
+      projectDesc: "PACK POINT IS A E-COMMERCE PLATFORM TO PURCHASE BAGS USING NODEJS AND MONGODB AND EXPRESSJS",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "PACK POINT",
+          url: "https://pack-point.onrender.com/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/MICRO-SERVICE.png"),
+      projectName: "MICROSERVICES",
+      projectDesc: "MAKE A SOCIAL MEDIA PLATFORM USING MICROSERVICES IN NODEJS , MONGODB , EXPRESSJS AND DOCKER , REDIS , GRAFANA AND RABBITMQ",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "SOCIAL MEDIA MICROSERVICES",
+          url: "https://github.com/Jay-Solanki-31/SocialMedia--Micro-Services"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/logo-header.png"),
+      projectName: "THE LOCOUS",
+      projectDesc: "THE LOCOUS IS A ONLINE HOSTEL BOOKING MANAGEMENT SYSTEM MAKE IN CORE PHP",
+      footerLink: [
+        {
+          name: "THE LOCOUS",
+          url: "https://github.com/Jay-Solanki-31/Hostel_Booking/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/joblister.png"),
+      projectName: "JOB-LISTER",
+      projectDesc: "JOB LISTER IS A ONLINE JOB POSTING PLATFORM MAKE IN PHP LARAVEL",
+      footerLink: [
+        {
+          name: "JOB-LISTER",
+          url: "https://github.com/Jay-Solanki-31/joblister-laravel"
+        }
+      ]
+    },
+
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -326,9 +350,14 @@ const contactInfo = {
   email_address: "jaysolanki1733@Gmail.com"
 };
 
+const twitterDetails = {
+  userName: "twitter", 
+  display: false
+};
 
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+
+const isHireable = true;
 
 export {
   illustration,
